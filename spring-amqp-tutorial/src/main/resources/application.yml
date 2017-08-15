@@ -1,0 +1,13 @@
+spring:
+  profiles:
+    active: usage_message
+  rabbitmq:
+    host: 10.0.33.144
+
+logging:
+  level:
+    org: ERROR
+
+tutorial:
+  client:
+    duration: 10000
