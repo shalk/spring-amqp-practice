@@ -19,5 +19,4 @@ public class RabbitAmqpTutorialsRunner implements CommandLineRunner {
         Thread.sleep(duration);
         ctx.close();
 	}
-
 }
